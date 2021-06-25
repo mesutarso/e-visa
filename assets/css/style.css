@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.logo-container {
+  width: 150px;
+}
+.header {
+  height: 15vh;
+  border-bottom: 2px solid #f1f1f1;
+}
+.white-color:hover {
+  color: #fff !important;
+}
+.link {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+}
+.active {
+  border-bottom: 2px solid #0d6efd;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 100px;
+}
