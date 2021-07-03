@@ -1,7 +1,9 @@
+@import url("./fonts.css");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins";
 }
 
 img {
@@ -36,4 +38,7 @@ li {
   background-color: #000;
   color: #fff;
   padding: 100px;
+}
+footer .logo-footer {
+  width: 70% !important;
 }
