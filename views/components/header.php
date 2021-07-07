@@ -4,7 +4,7 @@
     </div>
     <nav class="nav menu ">
         <li class="menu-list nav-item"><a href="/" class="active menu-link nav-link link">Accueil</a></li>
-        <li class="menu-list nav-item"><a href="" class="menu-link nav-link link">Services</a></li>
+
         <li class="menu-list nav-item"><a href="" class="menu-link nav-link link">Visas</a></li>
         <li class="menu-list nav-item"><a href="" class="menu-link nav-link link">A propos</a></li>
         <li class="menu-list nav-item"><a href="" class="menu-link nav-link btn btn-outline-primary white-color">Se connecter</a></li>

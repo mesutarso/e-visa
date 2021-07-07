@@ -13,10 +13,10 @@
 <?php
     require_once('./views/components/header.php');
     require_once('./views/components/hero.php');
-?>
-<h1>Bienvenue à notre site</h1>
-<?php
+    require_once('./views/components/programme.php');
+    require_once('./views/components/about.php');
     require_once('./views/components/footer.php');
+
 ?>
  <script src="./assets/js/bootstrap/bootstrap.min.js"></script> 
  <script src="./assets/js/main.js"></script>  

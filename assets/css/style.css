@@ -5,6 +5,15 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+section {
+  padding: 100px 0;
+}
 
 img {
   max-width: 100%;
@@ -18,6 +27,26 @@ li {
 .logo-container {
   width: 150px;
 }
+.section-title {
+  font-size: 2.3rem;
+  line-height: 1.5rem !important;
+  padding-bottom: 30px;
+  position: relative;
+}
+.border-color-white:after {
+  border-color: #fff !important;
+}
+.section-title:after {
+  content: "";
+  position: absolute;
+  display: block;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #0d6efd;
+  left: 50%;
+  width: 80px;
+  transform: translateX(-50%);
+}
+
 .header {
   height: 15vh;
   border-bottom: 2px solid #f1f1f1;
@@ -41,4 +70,27 @@ li {
 }
 footer .logo-footer {
   width: 70% !important;
+}
+.hero {
+  background-color: #f1f1f1;
+}
+.hero .container .title .main-title {
+  font-size: 3.5rem;
+  line-height: 3.2rem;
+  font-weight: 700;
+}
+.illustration {
+  background-image: url("../images/bg-visa.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.programme-list .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.programme-list .row .visa-card {
+  width: calc(96% / 4) !important;
+  margin-right: 10px;
 }
